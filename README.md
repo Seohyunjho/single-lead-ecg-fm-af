@@ -1,7 +1,8 @@
 # Single-Lead ECG-FM Transfer Learning
 
 This repository provides the model construction and training mechanism used in
-[Transfer Learning with a Pretrained Foundation Model for Atrial Fibrillation and Flutter Detection on Single-Lead ECG](https://doi.org/10.1109/ITC-CSCC66376.2025.11137575).
+[Transfer Learning with a Pretrained Foundation Model for Atrial Fibrillation and Flutter Detection on Single-Lead ECG](https://ieeexplore.ieee.org/document/11137575)
+([DOI](https://doi.org/10.1109/ITC-CSCC66376.2025.11137575)).
 
 The implementation adapts the pretrained 12-lead ECG-FM encoder to a single
 lead, adds a lightweight binary classification head, and exposes the two-stage
