@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Single-Lead ECG-FM Transfer Learning"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Min Seok
+version: 0.1.0
+date-released: 2026-08-31
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Transfer Learning with a Pretrained Foundation Model for Atrial Fibrillation and Flutter Detection on Single-Lead ECG"
+  authors:
+    - family-names: Lee
+      given-names: Min Seok
+    - family-names: Choi
+      given-names: Young-Seok
+  year: 2025
+  doi: 10.1109/ITC-CSCC66376.2025.11137575

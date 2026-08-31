@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "single-lead-ecg-fm-af"
+version = "0.1.0"
+description = "Reference implementation of single-lead ECG-FM adaptation and two-stage fine-tuning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Min Seok Lee"},
+]
+dependencies = [
+  "torch>=2.1",
+]
+
+[project.optional-dependencies]
+download = ["huggingface-hub>=0.20"]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

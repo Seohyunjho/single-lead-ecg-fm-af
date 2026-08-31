@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Keep datasets, checkpoints, and experiment artifacts out of the repository.
+data/
+datasets/
+checkpoints/
+outputs/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.mat
